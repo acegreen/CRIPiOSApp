@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2356D0D52E0C3DD70014EA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2356D0BC2E0C3DD50014EA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2356D0C32E0C3DD50014EA1B;
+			remoteInfo = CRIPiOSApp;
+		};
+		2356D0DF2E0C3DD70014EA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2356D0BC2E0C3DD50014EA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2356D0C32E0C3DD50014EA1B;
+			remoteInfo = CRIPiOSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2356D0C42E0C3DD50014EA1B /* CRIPiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRIPiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2356D0D42E0C3DD70014EA1B /* CRIPiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRIPiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2356D0DE2E0C3DD70014EA1B /* CRIPiOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRIPiOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2356D0C62E0C3DD50014EA1B /* CRIPiOSApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CRIPiOSApp;
+			sourceTree = "<group>";
+		};
+		2356D0D72E0C3DD70014EA1B /* CRIPiOSAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CRIPiOSAppTests;
+			sourceTree = "<group>";
+		};
+		2356D0E12E0C3DD70014EA1B /* CRIPiOSAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CRIPiOSAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2356D0C12E0C3DD50014EA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2356D0D12E0C3DD70014EA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2356D0DB2E0C3DD70014EA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2356D0BB2E0C3DD50014EA1B = {
+			isa = PBXGroup;
+			children = (
+				2356D0C62E0C3DD50014EA1B /* CRIPiOSApp */,
+				2356D0D72E0C3DD70014EA1B /* CRIPiOSAppTests */,
+				2356D0E12E0C3DD70014EA1B /* CRIPiOSAppUITests */,
+				2356D0C52E0C3DD50014EA1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2356D0C52E0C3DD50014EA1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2356D0C42E0C3DD50014EA1B /* CRIPiOSApp.app */,
+				2356D0D42E0C3DD70014EA1B /* CRIPiOSAppTests.xctest */,
+				2356D0DE2E0C3DD70014EA1B /* CRIPiOSAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2356D0C32E0C3DD50014EA1B /* CRIPiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2356D0E82E0C3DD70014EA1B /* Build configuration list for PBXNativeTarget "CRIPiOSApp" */;
+			buildPhases = (
+				2356D0C02E0C3DD50014EA1B /* Sources */,
+				2356D0C12E0C3DD50014EA1B /* Frameworks */,
+				2356D0C22E0C3DD50014EA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2356D0C62E0C3DD50014EA1B /* CRIPiOSApp */,
+			);
+			name = CRIPiOSApp;
+			packageProductDependencies = (
+			);
+			productName = CRIPiOSApp;
+			productReference = 2356D0C42E0C3DD50014EA1B /* CRIPiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2356D0D32E0C3DD70014EA1B /* CRIPiOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2356D0EB2E0C3DD70014EA1B /* Build configuration list for PBXNativeTarget "CRIPiOSAppTests" */;
+			buildPhases = (
+				2356D0D02E0C3DD70014EA1B /* Sources */,
+				2356D0D12E0C3DD70014EA1B /* Frameworks */,
+				2356D0D22E0C3DD70014EA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2356D0D62E0C3DD70014EA1B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2356D0D72E0C3DD70014EA1B /* CRIPiOSAppTests */,
+			);
+			name = CRIPiOSAppTests;
+			packageProductDependencies = (
+			);
+			productName = CRIPiOSAppTests;
+			productReference = 2356D0D42E0C3DD70014EA1B /* CRIPiOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2356D0DD2E0C3DD70014EA1B /* CRIPiOSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2356D0EE2E0C3DD70014EA1B /* Build configuration list for PBXNativeTarget "CRIPiOSAppUITests" */;
+			buildPhases = (
+				2356D0DA2E0C3DD70014EA1B /* Sources */,
+				2356D0DB2E0C3DD70014EA1B /* Frameworks */,
+				2356D0DC2E0C3DD70014EA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2356D0E02E0C3DD70014EA1B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2356D0E12E0C3DD70014EA1B /* CRIPiOSAppUITests */,
+			);
+			name = CRIPiOSAppUITests;
+			packageProductDependencies = (
+			);
+			productName = CRIPiOSAppUITests;
+			productReference = 2356D0DE2E0C3DD70014EA1B /* CRIPiOSAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2356D0BC2E0C3DD50014EA1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					2356D0C32E0C3DD50014EA1B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2356D0D32E0C3DD70014EA1B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2356D0C32E0C3DD50014EA1B;
+					};
+					2356D0DD2E0C3DD70014EA1B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2356D0C32E0C3DD50014EA1B;
+					};
+				};
+			};
+			buildConfigurationList = 2356D0BF2E0C3DD50014EA1B /* Build configuration list for PBXProject "CRIPiOSApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2356D0BB2E0C3DD50014EA1B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2356D0C52E0C3DD50014EA1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2356D0C32E0C3DD50014EA1B /* CRIPiOSApp */,
+				2356D0D32E0C3DD70014EA1B /* CRIPiOSAppTests */,
+				2356D0DD2E0C3DD70014EA1B /* CRIPiOSAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2356D0C22E0C3DD50014EA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2356D0D22E0C3DD70014EA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2356D0DC2E0C3DD70014EA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2356D0C02E0C3DD50014EA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2356D0D02E0C3DD70014EA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2356D0DA2E0C3DD70014EA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2356D0D62E0C3DD70014EA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2356D0C32E0C3DD50014EA1B /* CRIPiOSApp */;
+			targetProxy = 2356D0D52E0C3DD70014EA1B /* PBXContainerItemProxy */;
+		};
+		2356D0E02E0C3DD70014EA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2356D0C32E0C3DD50014EA1B /* CRIPiOSApp */;
+			targetProxy = 2356D0DF2E0C3DD70014EA1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2356D0E62E0C3DD70014EA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2356D0E72E0C3DD70014EA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2356D0E92E0C3DD70014EA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CRIPiOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.CRIPiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2356D0EA2E0C3DD70014EA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CRIPiOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.CRIPiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2356D0EC2E0C3DD70014EA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.CRIPiOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRIPiOSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CRIPiOSApp";
+			};
+			name = Debug;
+		};
+		2356D0ED2E0C3DD70014EA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.CRIPiOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRIPiOSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CRIPiOSApp";
+			};
+			name = Release;
+		};
+		2356D0EF2E0C3DD70014EA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.CRIPiOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRIPiOSApp;
+			};
+			name = Debug;
+		};
+		2356D0F02E0C3DD70014EA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.CRIPiOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRIPiOSApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2356D0BF2E0C3DD50014EA1B /* Build configuration list for PBXProject "CRIPiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2356D0E62E0C3DD70014EA1B /* Debug */,
+				2356D0E72E0C3DD70014EA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2356D0E82E0C3DD70014EA1B /* Build configuration list for PBXNativeTarget "CRIPiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2356D0E92E0C3DD70014EA1B /* Debug */,
+				2356D0EA2E0C3DD70014EA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2356D0EB2E0C3DD70014EA1B /* Build configuration list for PBXNativeTarget "CRIPiOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2356D0EC2E0C3DD70014EA1B /* Debug */,
+				2356D0ED2E0C3DD70014EA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2356D0EE2E0C3DD70014EA1B /* Build configuration list for PBXNativeTarget "CRIPiOSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2356D0EF2E0C3DD70014EA1B /* Debug */,
+				2356D0F02E0C3DD70014EA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2356D0BC2E0C3DD50014EA1B /* Project object */;
+}
